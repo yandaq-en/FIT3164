@@ -50,14 +50,14 @@ def non0var(df):
 
 
 def synchronize(train, validation, test):
-    # remove rows which not exists in train set and validation set.
+    # remove columns which not exists in train set and validation set.
     test = test.drop(list(set(test).difference(set(train))), axis=1)
 
     test = test.drop(list(set(test).difference(set(validation))), axis=1)
-    # remove rows which not exists in train set and test set.
+    # remove columns which not exists in train set and test set.
     validation = validation.drop(list(set(validation).difference(set(train))), axis=1)
     validation = validation.drop(list(set(validation).difference(set(test))), axis=1)
-    # remove rows which not exists in test set and validation set.
+    # remove columns which not exists in test set and validation set.
     train = train.drop(list(set(train).difference(set(test))), axis=1)
     train = train.drop(list(set(train).difference(set(validation))), axis=1)
     return train, validation, test
