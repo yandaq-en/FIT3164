@@ -3,4 +3,12 @@ This project implements the ICU mortality prediction model using XBGoost. Severa
   1. Hyperopt, xgboost and shap libraries are used for this project, please ensure these packages have been installed before runing the project code. To help users install packages, a list of packages needed is provided in the requirements.txt file. After download the project folder, run command line in the folder and use "pip install -r requirements.txt" command to install packages needed for this project. Notice, xgboost may not be able to install directly for windows users, as xgboost is no longer supported for pip install. Besides, C++ tools are needed to install shap. Please ensure C++ tools are installed before running the command.
   
   
-  2. 
+  2. In order to observe the individual explanation, one have to use Juypter notebook, as the ploting method uses Javascript which is not avaliable in Pycharm.
+  
+  3. An applicaition.py file is provided as a usable application. Users can enter the value of features and predict the probability of surviving. param.txt, selected_train_X.csv, train_y.csv are files needed for running the application. These files can be generated from the main.py file.
+  
+  4. The main.py file is the the main code for this project, including data preprocessing, modelling and explainer implementation. Detailed documentation is provided in the file. In contrast, the application.py file has no documentation inside as it is just the application code and it is not the project interest.
+  
+  5. A Juypter notbook version of main.py is also provided in the folder. This is for the convinence of users who may use juypter notebook to read python files. Also, users can use this file to observe the individual explanation.
+  
+  6. The github link for this project is provided here: 
