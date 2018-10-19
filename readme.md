@@ -11,4 +11,4 @@ This project implements the ICU mortality prediction model using XBGoost. Severa
   
   5. A Juypter notbook version of main.py is also provided in the folder. This is for the convinence of users who may use juypter notebook to read python files. Also, users can use this file to observe the individual explanation.
   
-  6. The github link for this project is provided here: 
+  6. The github link for this project is provided here: https://github.com/YandaQu/FIT3164
