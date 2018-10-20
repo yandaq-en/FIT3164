@@ -14,3 +14,6 @@ This project implements the ICU mortality prediction model using XBGoost. Severa
   6. In order to use the main.py code by default, three folder of datasets have to be in the same folder with the main.py code. This means the main.py code can call "set-a/" and find the folder. Alternatively, users can change the path of the directory to fit their constom use.
   
   7. The github link for this project is provided here: https://github.com/YandaQu/FIT3164
+  
+  8. The datasets used in this proejct can be downloaded from Physionet.com, the URL links to the data source is provided below:
+    https://physionet.org/challenge/2012/
