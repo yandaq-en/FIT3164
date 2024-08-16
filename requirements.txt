@@ -33,7 +33,7 @@ shap==0.24.0
 simplegeneric==0.8.1
 six==1.11.0
 sklearn==0.0
-tqdm==4.27.0
+tqdm==4.66.3
 traitlets==4.3.2
 wcwidth==0.1.7
 xgboost==0.80
